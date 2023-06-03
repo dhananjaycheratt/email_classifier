@@ -13,7 +13,7 @@ import pickle
 import streamlit as st
 
 # Load the Spambase dataset
-data = pd.read_csv(r"C:\Users\dhana\Downloads\archive (9)\spam_ham_dataset.csv")
+data = pd.read_csv("spam_ham_dataset.csv")
 
 # Separate features and labels
 X = data.drop('label_num', axis=1)  # Features
